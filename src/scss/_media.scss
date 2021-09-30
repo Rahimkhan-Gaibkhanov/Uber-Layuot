@@ -1,0 +1,519 @@
+@media (max-width: 1200px) {
+    .menu {
+        .menu_link {
+            font-size: 13px !important;
+            padding-right: 22px !important;
+        }
+    
+    }
+    .subheader {
+        &_call {
+            padding-left: 70px;
+        }
+        &_phone {
+            padding-left: 48px;
+        }
+    }
+    .promo {
+        &_header {
+            font-size: 50px;
+        }
+    }
+    .work {
+        &_subheader {
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+        &_bg {
+            margin-left: 30px;
+        }
+        &_text {
+            width: 300px;
+            margin-bottom: 40px;
+        }
+        &_text_tel, &_text_car {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    footer {
+        .social_bg {
+            width: 32px !important;
+            height: 32px !important;
+        }
+        .mobile_app {
+            .app_store {
+            .app, .play {
+                width: 78px !important;
+                height: 24px !important;
+            }
+            .wind {
+                width: 78px !important;
+                height: 25px !important;
+                margin-left: 2px;
+            }
+        }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .menu {
+        .menu_link {
+            font-size: 11px !important;
+            padding-right: 8px !important;
+        }
+    }
+    .promo {
+        width: 100%;
+    }
+    .subheader {
+        width: 100%;
+        .subheader_logo > img {
+            width: 100%;
+        }
+        .subheader_call {
+            padding-left: 27px;
+        }
+        .subheader_phone {
+            padding-left: 31px;
+            font-size: 18px;
+        }
+        .subheader_btn {
+            width: 160px;
+            height: 40px;
+            margin-top: 27px;
+            font-size: 13px;
+        }
+    }
+    .promo {
+        &_header {
+            font-size: 44px;
+        }
+        &_subheader {
+            font-size: 28px;
+        }
+        &_descr {
+            font-size: 17px;
+        }
+    }
+    .work {
+        &_subheader {
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        .col-md-6 {
+            flex-direction: column;
+        }
+        &_bg {
+            margin-left: 110px;
+            margin-bottom: 20px;
+        }
+        &_text_tel, &_text_car {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    .mobile {
+        min-height: 770px;
+        padding: 25px 0 58px 0;
+        &_item {
+            width: 240px;
+            height: 230px;
+            margin-top: 0px;
+            &_subtitle {
+                font-size: 20px;
+            }
+            &_plus {
+                width: 22px;
+                height: 22px;
+                &::before {
+                    width: 10px;
+                }
+                &::after {
+                    height: 10px;
+                }
+            }
+            &_cashless, &_reverse, &_the_cost {
+                margin-top: 12px;
+            }
+        }
+    }
+    .choice {
+        min-height: 800px;
+        padding: 0px 0 137px 0;
+        &label {
+            width: 113px;
+            height: 24px;
+        }
+        &_header {
+            font-size: 28px;
+        }
+        &_subheader {
+            font-size: 16px;
+            text-align: center;
+        }
+        &_img {
+            width: 700px;
+        }
+        .dark_bg {
+            height: 483px;
+        }
+        .light-bg {
+            height: 316px;
+        }
+        &_descr {
+            top: 675px;
+        }
+    }
+    .cities {
+        &_header {
+            font-size: 33px;
+        }
+        &_subheader {
+            font-size: 15px;
+        }
+    }
+
+    footer {
+        .footer_wrapper {
+            padding-top: 18px;
+            display: block;
+            .social_item {
+                margin: 0px auto;
+            }
+            .links {
+                position: inherit;
+                margin: 0px auto;
+                margin-top: 18px;
+                left: inherit;
+                transform: none;
+            }
+            .mobile_app {
+                position: inherit;
+                right: inherit;
+                display: flex;
+                justify-content: center;
+                margin: 15px 0 20px 0;
+                .app, .play {
+                    width: 94px !important;
+                    height: 26px !important;
+                }
+                .wind {
+                    width: 94px !important;
+                    height: 27px !important;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .menu {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center !important;
+        text-align: center !important;
+        align-items: center !important;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px !important;
+        background-color: rgba(0, 0, 0, .9);
+        transition: 0.6s all;
+        &_active {
+            left: 0;
+        }
+        &_item {
+            border: none !important;
+            margin: 10px 0px;
+        }
+        .menu_link {
+            padding-right: 0px !important;
+            font-size: 20px !important;
+        }
+    }
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
+        span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 2px;
+            transition: 0.5s all;
+        }
+        &_active {
+            span {
+                margin-bottom: -2px;
+                &:nth-child(1) {
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(3) {
+                    transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+    .subheader {
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: block;
+            margin: 5px 0px 0px 60px;
+        }
+        &_logo {
+            width: 88%;
+            margin-top: 17px;
+        }
+        &_btn {
+            width: 200px !important;
+            margin: 5px 0px 0px 82px !important;
+        }
+    }
+    .promo {
+        width: 100%;
+        padding: 130px 0 140px 0;
+        &_subheader {
+            font-size: 31px;
+        }
+        &_descr {
+            font-size: 18px;
+        }
+    }
+    .work {
+        &_bg {
+            margin: 20px auto 20px auto;
+        }
+        &_text {
+            margin: 0px auto 0px auto;
+        }
+        &_text_wallet, &_text_money, &_text_calendar, &_text_key, &_text_order {
+            margin-bottom: 25px;
+        }
+        &_bg_car {
+            margin-top: 0px;
+        }
+    }
+    .mobile {
+        &_item {
+            width: 280px;
+            height: 270px;
+            &_subtitle {
+                font-size: 23px;
+            }
+            &_plus {
+                width: 25px;
+                height: 25px;
+                &::before {
+                    width: 12px;
+                }
+                &::after {
+                    height: 12px;
+                }
+            }
+        }
+        &_header {
+            font-size: 33px;
+        }
+        &_item_registration, &_item_reliable, &_item_transparent {
+            margin-top: 12px;
+        }
+    }
+    .choice {
+        min-height: 678px;
+        &_title {
+            top: 40px;
+        }
+        &_header {
+            top: 95px;
+            font-size: 21px;
+        }
+        &_subheader {
+            top: 145px;
+        }
+        &_img {
+            width: 577px;
+        }
+        &_descr {
+            top: 580px;
+        }
+        .light_bg {
+            top: 400px;
+            height: 300px;
+        }
+    }
+    .require {
+        &_block-top {
+            margin: 10px 0 30px 0;
+        }
+        &_title-top {
+            margin-bottom: 30px;
+        }
+        &_block_bottom {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    nav {
+        height: 30px;
+    }
+    header {
+        height: 30px;
+    }
+    .menu {
+        width: 80%;
+    }
+    .subheader {
+        min-width: 400px;
+        height: 60px;
+        top: 30px;
+        &_official {
+            display: none;
+        }
+        &_logo {
+            margin-left: 50px;
+            img {
+                width: 90% !important;
+                margin-top: -6px;
+            }
+        }
+        .visible {
+            display: inline-block;
+            padding-left: 18px;
+        }
+        &_btn {
+            margin: 5px 0px 0px 62px !important;
+            width: 114px !important;
+            height: 26px !important;
+            font-size: 10px !important;
+        }
+        &_phone {
+            font-size: 12px !important;
+        }
+    }
+    .container {
+        width: 100%;
+    }
+    .promo {
+        min-width: 400px;
+        padding: 50px 0 90px 0;
+        &_header {
+            width: 95%;
+            padding: 0px 15px;
+            font-size: 30px;
+        }
+        &_subheader {
+            width: 95%;
+            padding: 0px 15px;
+            font-size: 22px;
+        }
+        &_descr {
+            display: none;
+        }
+        &_btn {
+            margin: 70px auto 0 auto;
+            width: 240px;
+            height: 57px;
+        }
+    }
+    .work {
+        min-width: 400px;
+    }
+    .mobile {
+        min-width: 400px;
+        &_header {
+            font-size: 28px;
+        }
+    }
+    .choice {
+        min-width: 400px;
+        min-height: 600px;
+        &_img {
+            width: 95%;
+            top: 111px;
+        }
+        &_title {
+            top: 30px;
+        }
+        &_header {
+            display: none;
+        }
+        &_subheader {
+            display: none;
+        }
+        .dark_bg {
+            height: 600px;
+        }
+        .light_bg {
+            display: none;
+        }
+        &_descr {
+            width: 400px;
+            top: 420px;
+            color: #fff;
+            font-size: 27px;
+            line-height: 34px;
+        }
+    }
+    .require {
+        min-width: 400px;
+        padding: 40px 0 40px 0;
+    }
+    .cities {
+        min-width: 400px;
+    }
+    footer {
+        min-width: 400px;
+        .footer_line {
+            width: 235px;
+        }
+        .footer_wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        .divv_two {
+            display: flex;
+            order: 1;
+        }
+        .div_one {
+            display: flex;
+            order: 2;
+        }
+        .divv_three {
+            display: flex;
+            order: 3;
+            justify-content: center;
+        }
+        .links {
+            margin-top: 5px !important;
+            width: 290px !important;
+        }
+        .social_item {
+            margin-top: 15px !important;
+        }
+        .link_main > a {
+            font-size: 12px !important;
+        }
+        .link_sub > a {
+            font-size: 9px !important;
+        }
+        .mobile_app {
+            margin: 22px 0 30px 0 !important;
+        }
+    }
+}

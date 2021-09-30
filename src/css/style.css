@@ -1,0 +1,341 @@
+
+.container {
+    width: 1140px;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    width: 100%; /* * */
+    height: 50px;
+    background-color: #212121;
+    z-index: 2; 
+}
+
+
+
+nav .container {
+    padding: 13px 70px;
+    background: #212121;
+}
+
+.container .menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .menu .menu_item .menu_link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 45px;
+}
+
+.container .menu .menu_item  {
+    border-right: 2px dotted black;
+}
+.container {
+    padding: 0px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    height: 87px;
+}
+
+.subheader_logo {
+    display: block;
+    margin-top: 17px;
+}
+
+.col-md-4 {
+    padding: 0px;
+}
+
+.subheader_official {
+    margin-top: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    align-items: center;
+    color: white;
+    opacity: 0.6;
+}
+
+.subheader_call {
+    margin-top: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    align-items: center;
+    padding-left: 22px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.col-md-2 {
+    padding: 0px;
+}
+
+.subheader_phone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subheader_btn {
+    width: 172px;
+    height: 46px;
+    margin-top: 25px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+
+.promo {
+    min-width: 800px;
+    padding: 150px 0 185px 0;
+    background: url("../img/uber_bg.jpg") center center/cover no-repeat;
+}
+
+.col-md-10 {
+    padding: 0px;
+}
+
+.promo_header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.promo_subheader {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.promo_descr {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    color: rgba(255, 255, 255, .8);
+}
+
+.promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    margin: 115px auto 0 auto;
+}
+
+.work {
+    min-height: 849px;
+}
+
+.work_header {
+    width: 113px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    mix-blend-mode: normal;
+    padding: 7px 0px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.work_subheader {
+    margin-top: 33px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    /* line-height: 48px; */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.col-md-6 {
+    display: flex;
+    padding: 0px;
+}
+
+.col_one {
+    /* padding-left: 24px; */
+}
+.work_text_wallet span,
+.work_text_bonus span, 
+.work_text_money span, 
+.work_text_calendar span,
+.work_text_key span,
+.work_text_order span,
+.work_text_tel span,
+.work_text_car span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.work_text_wallet,
+.work_text_money,
+.work_text_key,
+.work_text_tel {
+    width: 371px;
+    height: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+    margin-left: 24px;
+    margin-bottom: 26px;
+}
+
+.work_text_bonus,
+.work_text_calendar,
+.work_text_order,
+.work_text_car {
+    width: 341px;
+    height: 128px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+    margin-left: 24px;
+}
+
+.work_bg_wallet, .work_bg_bonus, .work_bg_money, .work_bg_calendar, .work_bg_key, .work_bg_order  {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    margin-top: 10px;
+    vertical-align: center;
+    margin-left: 50px;
+}
+
+.work_bg_tel, .work_bg_car  {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+    vertical-align: center;
+    margin-left: 50px;
+}
+
+.work_img_wallet {
+    display: block;
+    margin: 25px auto;
+}
+.work_img_bonus {
+    display: block;
+    margin: 24px 24px;
+}
+.work_img_money {
+    display: block;
+    margin: 30px 19px;
+}
+.work_img_calendar {
+    display: block;
+    margin: 20px auto;
+}
+.work_img_key {
+    display: block;
+    margin: 20px auto;
+}
+.work_img_order {
+    display: block;
+    margin: 20px 25px;
+}
+.work_img_tel {
+    display: block;
+    margin: 20px auto;
+}
+.work_img_car {
+    display: block;
+    margin: 20px 18px;
+}
+ 
